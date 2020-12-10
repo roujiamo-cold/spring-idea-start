@@ -17,8 +17,8 @@ import java.util.List;
 @RestController
 public class DemoController {
 
-    @GetMapping(value = "/demo/{id}")
-    public String demo(@PathVariable(value = "id") int id) {
+    @GetMapping(value = "/demo/{ids}")
+    public String demo(@PathVariable(value = "ids") int id) {
         log.info(String.valueOf(id));
         return "hello world" + id;
     }
