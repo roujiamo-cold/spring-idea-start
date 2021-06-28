@@ -14,7 +14,7 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface UserMapper {
 
-    User selectUserModelByObj(User user);
+//    User selectUserModelByObj(User user);
 
     int deleteByPrimaryKey(Integer id);
 

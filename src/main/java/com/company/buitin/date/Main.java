@@ -1,7 +1,5 @@
 package com.company.buitin.date;
 
-import org.junit.jupiter.api.Test;
-
 import java.text.SimpleDateFormat;
 import java.time.ZoneId;
 import java.time.ZonedDateTime;
@@ -16,7 +14,6 @@ import java.util.Date;
 
 public class Main {
 
-    @Test
     public void rfc3339() throws Exception {
         String rfc3339TimeStr = "2015-05-20T13:29:35.120+08:00";
 //        Date d = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSS'Z'").parse(rfc3339TimeStr);
